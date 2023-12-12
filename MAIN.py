@@ -7,8 +7,8 @@ from bs4 import BeautifulSoup
 drv = webdriver.Chrome()
 drv.get("https://www.ingredientsonline.com/customer/account/login/")
 username = ""# put the username
-password = ""# put the username
-price_Xpath = '' # go to the page ,and select incspect of the price you wante , copy> XPATH , and put it in this is  variable
+password = ""# put the password
+price_Xpath = '' #  XPATH of the price 
 
 
 drv.implicitly_wait(20)
